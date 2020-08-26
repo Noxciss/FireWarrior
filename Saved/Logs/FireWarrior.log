@@ -1625,3 +1625,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.08.26-02.40.38:362][101]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.08.26-02.41.28:350][830]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
 [2020.08.26-02.41.28:357][830]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.087
+[2020.08.26-02.51.28:792][257]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2020.08.26-02.51.28:807][257]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.065
