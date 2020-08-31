@@ -1,8 +1,8 @@
-﻿Log file open, 08/27/20 18:54:31
+﻿Log file open, 08/30/20 23:36:36
 LogInit: Display: Running engine for game: FireWarrior
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.280886
+LogStats: Stats thread started at 0.211937
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -192,994 +192,530 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.08.27-22.54.32:107][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.08.27-22.54.32:107][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
-[2020.08.27-22.54.32:108][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.08.27-22.54.32:108][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.08.27-22.54.32:109][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.08.27-22.54.32:109][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.08.27-22.54.32:109][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.08.27-22.54.32:109][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.08.27-22.54.32:109][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.08.27-22.54.32:109][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.08.27-22.54.32:109][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.08.27-22.54.32:109][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.08.27-22.54.32:109][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
-[2020.08.27-22.54.32:109][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
-[2020.08.27-22.54.32:115][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.08.27-22.54.32:115][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.08.27-22.54.32:116][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.08.27-22.54.32:117][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.08.27-22.54.32:118][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.08.27-22.54.32:118][  0]LogInit: Selected Device Profile: [Windows]
-[2020.08.27-22.54.32:118][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.08.27-22.54.32:119][  0]LogHAL: Display: Platform has ~ 16 GB [17119961088 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.08.27-22.54.32:119][  0]LogInit: Going up to parent DeviceProfile []
-[2020.08.27-22.54.32:120][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.08.27-22.54.32:120][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.08.27-22.54.32:121][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2020.08.27-22.54.32:122][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.08.27-22.54.32:123][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.08.27-22.54.32:123][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.08.27-22.54.32:123][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2020.08.27-22.54.32:123][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
-[2020.08.27-22.54.32:123][  0]LogInit: Computer: JOE-PC
-[2020.08.27-22.54.32:123][  0]LogInit: User: Joe
-[2020.08.27-22.54.32:124][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.08.27-22.54.32:124][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.08.27-22.54.32:124][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2020.08.27-22.54.32:124][  0]LogMemory: Platform Memory Stats for Windows
-[2020.08.27-22.54.32:124][  0]LogMemory: Process Physical Memory: 113.32 MB used, 113.32 MB peak
-[2020.08.27-22.54.32:124][  0]LogMemory: Process Virtual Memory: 95.80 MB used, 95.80 MB peak
-[2020.08.27-22.54.32:124][  0]LogMemory: Physical Memory: 6355.54 MB used,  9971.33 MB free, 16326.87 MB total
-[2020.08.27-22.54.32:124][  0]LogMemory: Virtual Memory: 5105.82 MB used,  134212624.00 MB free, 134217728.00 MB total
-[2020.08.27-22.54.32:133][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.08.27-22.54.32:368][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2020.08.27-22.54.32:380][  0]LogInit: Using OS detected language (en-US).
-[2020.08.27-22.54.32:380][  0]LogInit: Using OS detected locale (en-US).
-[2020.08.27-22.54.32:396][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.08.27-22.54.32:687][  0]LogInit: Setting process to per monitor DPI aware
-[2020.08.27-22.54.32:749][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.08.27-22.54.32:749][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.08.27-22.54.33:238][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2020.08.27-22.54.33:238][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2020.08.27-22.54.33:238][  0]LogD3D11RHI: D3D11 adapters:
-[2020.08.27-22.54.33:314][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
-[2020.08.27-22.54.33:314][  0]LogD3D11RHI:       6097/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2020.08.27-22.54.33:317][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.08.27-22.54.33:317][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.08.27-22.54.33:317][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.08.27-22.54.33:326][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.08.27-22.54.33:326][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
-[2020.08.27-22.54.33:326][  0]LogWindows: EnumDisplayDevices:
-[2020.08.27-22.54.33:326][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
-[2020.08.27-22.54.33:327][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2020.08.27-22.54.33:328][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2020.08.27-22.54.33:329][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
-[2020.08.27-22.54.33:329][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.08.27-22.54.33:329][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
-[2020.08.27-22.54.33:329][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
-[2020.08.27-22.54.33:329][  0]LogD3D11RHI:      Driver Date: 12-6-2019
-[2020.08.27-22.54.33:329][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
-[2020.08.27-22.54.33:392][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2020.08.27-22.54.33:395][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2020.08.27-22.54.33:395][  0]LogD3D11RHI: Async texture creation enabled
-[2020.08.27-22.54.33:395][  0]LogD3D11RHI: Array index from any shader is supported
-[2020.08.27-22.54.33:443][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2020.08.27-22.54.35:479][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.08.27-22.54.35:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.08.27-22.54.35:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.08.27-22.54.35:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.08.27-22.54.35:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.08.27-22.54.35:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.08.27-22.54.35:507][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.08.27-22.54.35:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.08.27-22.54.35:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.08.27-22.54.35:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.08.27-22.54.35:508][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.08.27-22.54.35:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.08.27-22.54.35:548][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.08.27-22.54.35:565][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2020.08.27-22.54.35:581][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.08.27-22.54.35:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.08.27-22.54.35:611][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.08.27-22.54.35:625][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.08.27-22.54.35:640][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.08.27-22.54.35:654][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.08.27-22.54.35:692][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.08.27-22.54.35:692][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.08.27-22.54.35:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.08.27-22.54.35:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.08.27-22.54.35:729][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.08.27-22.54.35:746][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.08.27-22.54.35:760][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.08.27-22.54.35:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.08.27-22.54.35:775][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.08.27-22.54.35:818][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.08.27-22.54.36:035][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Intermediate/Shaders/WorkingDirectory/10116/).
-[2020.08.27-22.54.36:036][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joe/AppData/Local/Temp/UnrealShaderWorkingDir/F64D8BB743692BB8BFF7449956E5C524/'.
-[2020.08.27-22.54.36:037][  0]LogXGEController: Cleaning working directory: C:/Users/Joe/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.08.27-22.54.36:037][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.08.27-22.54.36:037][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.08.27-22.54.36:037][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.08.27-22.54.36:992][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.08.27-22.54.37:184][  0]LogDerivedDataCache: Loaded boot cache 0.19s 75MB C:/Users/Joe/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.08.27-22.54.37:184][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joe/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2020.08.27-22.54.37:184][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Joe/Documents/Unreal Projects/FireWarrior/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.08.27-22.54.37:184][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.08.27-22.54.37:184][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Joe/Documents/Unreal Projects/FireWarrior/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.08.27-22.54.37:184][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.08.27-22.54.37:199][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.08.27-22.54.37:199][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.08.27-22.54.37:199][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.08.27-22.54.37:201][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.08.27-22.54.37:201][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.08.27-22.54.37:201][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.08.27-22.54.37:258][  0]LogSlate: Using FreeType 2.10.0
-[2020.08.27-22.54.37:260][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.08.27-22.54.37:312][  0]LogAssetRegistry: FAssetRegistry took 0.0049 seconds to start up
-[2020.08.27-22.54.37:689][  0]LogInit: Selected Device Profile: [Windows]
-[2020.08.27-22.54.37:942][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.08.27-22.54.37:942][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.08.27-22.54.37:942][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.08.27-22.54.37:942][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.08.27-22.54.37:942][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.08.27-22.54.37:985][  0]LogNetVersion: FireWarrior 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2016184147)
-[2020.08.27-22.54.38:780][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001B777073A40), frame # 0
-[2020.08.27-22.54.38:780][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B777067C40), frame # 0
-[2020.08.27-22.54.38:784][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B7770F4800), frame # 0
-[2020.08.27-22.54.38:843][  0]LogPackageLocalizationCache: Processed 17 localized package path(s) for 1 prioritized culture(s) in 0.039724 seconds
-[2020.08.27-22.54.38:848][  0]LogUObjectArray: 15756 objects as part of root set at end of initial load.
-[2020.08.27-22.54.38:848][  0]LogUObjectAllocator: 3925280 out of 0 bytes used by permanent object pool.
-[2020.08.27-22.54.38:848][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.08.27-22.54.39:820][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.08.27-22.54.39:832][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.08.27-22.54.39:942][  0]LogLinker: Warning: Failed to load '/Game/AI_Player/FirstPersonOverview': Can't find file.
-[2020.08.27-22.54.39:943][  0]LogLinker: Warning: Failed to load '/Game/AI_Player/FirstPersonOverview': Can't find file.
-[2020.08.27-22.54.39:943][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/AI_Player/FirstPersonOverview.FirstPersonOverview_C'
-[2020.08.27-22.54.40:040][  0]SourceControl: Source control is disabled
-[2020.08.27-22.54.41:563][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.08.27-22.54.41:618][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.08.27-22.54.41:618][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.08.27-22.54.41:837][  0]LogEngine: Initializing Engine...
-[2020.08.27-22.54.41:839][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2020.08.27-22.54.41:841][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
-[2020.08.27-22.54.41:981][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.08.27-22.54.42:013][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.08.27-22.54.42:013][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B77CB73C00), frame # 0
-[2020.08.27-22.54.42:013][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B77CC0E480), frame # 0
-[2020.08.27-22.54.42:028][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.08.27-22.54.42:028][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.08.27-22.54.42:028][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.08.27-22.54.42:028][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.08.27-22.54.42:028][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.08.27-22.54.42:028][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.08.27-22.54.42:028][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.08.27-22.54.42:028][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.08.27-22.54.42:031][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.08.27-22.54.42:031][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.08.27-22.54.42:058][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.08.27-22.54.42:058][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.08.27-22.54.42:108][  0]LogAudioMixer: Display: Using Audio Device ASUS VP28U (NVIDIA High Definition Audio)
-[2020.08.27-22.54.42:110][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2020.08.27-22.54.42:115][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2020.08.27-22.54.42:115][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2020.08.27-22.54.42:116][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2020.08.27-22.54.42:117][  0]LogInit: FAudioDevice initialized.
-[2020.08.27-22.54.42:118][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.08.27-22.54.42:317][  0]LogDerivedDataCache: Saved boot cache 0.20s 75MB C:/Users/Joe/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2020.08.27-22.54.42:317][  0]LogInit: Texture streaming: Enabled
-[2020.08.27-22.54.42:361][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.08.27-22.54.42:361][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.08.27-22.54.42:378][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.08.27-22.54.42:432][  0]LogInit: Transaction tracking system initialized
-[2020.08.27-22.54.42:502][  0]BlueprintLog: New page: Editor Load
-[2020.08.27-22.54.42:738][  0]LocalizationService: Localization service is disabled
-[2020.08.27-22.54.43:094][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.08.27-22.54.43:094][  0]LogCook: Display: Mobile HDR setting 1
-[2020.08.27-22.54.43:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/' took 0.02s
-[2020.08.27-22.54.43:523][  0]LogUnrealEdMisc: Loading editor; pre map load, took 17.544
-[2020.08.27-22.54.43:524][  0]Cmd: MAP LOAD FILE="C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.08.27-22.54.43:526][  0]LightingResults: New page: Lighting Build
-[2020.08.27-22.54.43:530][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.08.27-22.54.43:530][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.08.27-22.54.43:531][  0]MapCheck: New page: Map Check
-[2020.08.27-22.54.43:531][  0]LightingResults: New page: Lighting Build
-[2020.08.27-22.54.43:544][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B77CB73C00), frame # 0
-[2020.08.27-22.54.43:544][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B77CC0E480), frame # 0
-[2020.08.27-22.54.43:545][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2020.08.27-22.54.44:086][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2020.08.27-22.54.44:086][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001B707F6C400), frame # 0
-[2020.08.27-22.54.44:086][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001B7081391C0), frame # 0
-[2020.08.27-22.54.44:116][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.08.27-22.54.44:130][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
-[2020.08.27-22.54.44:130][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.08.27-22.54.44:131][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.359ms to complete.
-[2020.08.27-22.54.44:131][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.607
-[2020.08.27-22.54.44:148][  0]LogUnrealEdMisc: Total Editor Startup Time, took 18.168
-[2020.08.27-22.54.44:321][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.27-22.54.44:331][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.27-22.54.44:338][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.27-22.54.44:347][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.08.27-22.54.44:376][  0]LogCollectionManager: Loaded 0 collections in 0.003085 seconds
-[2020.08.27-22.54.44:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Collections/' took 0.00s
-[2020.08.27-22.54.44:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/Developers/Joe/Collections/' took 0.00s
-[2020.08.27-22.54.44:407][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/Collections/' took 0.00s
-[2020.08.27-22.54.44:407][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 3407 classes and 805 folders.
-[2020.08.27-22.54.44:416][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.08.27-22.54.44:684][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.08.27-22.54.44:688][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
-[2020.08.27-22.54.44:912][  0]LogSlate: Took 0.001178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.08.27-22.54.44:915][  0]LogSlate: Took 0.000969 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.08.27-22.54.44:921][  0]LogSlate: Took 0.000922 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.08.27-22.54.45:007][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
-[2020.08.27-22.54.45:151][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.08.27-22.54.45:151][  0]LogLoad: (Engine Initialization) Total time: 19.17 seconds
-[2020.08.27-22.54.45:151][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.08.27-22.54.45:196][  0]LogAssetRegistry: Asset discovery search completed in 7.8866 seconds
-[2020.08.27-22.54.45:201][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000014 seconds (updated 0 objects)
-[2020.08.27-22.54.45:205][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.08.27-22.54.45:511][  1]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
-[2020.08.27-22.54.45:606][  2]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
-[2020.08.27-22.54.45:606][  2]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
-[2020.08.27-22.54.45:606][  2]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
-[2020.08.27-22.54.45:606][  2]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
-[2020.08.27-22.54.45:614][  2]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
-[2020.08.27-22.54.45:694][  3]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
-[2020.08.27-22.54.45:733][  4]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
-[2020.08.27-22.54.45:799][  5]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
-[2020.08.27-22.54.45:858][  6]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
-[2020.08.27-22.54.49:485][232]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 110
-[2020.08.27-22.54.50:091][274]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 100
-[2020.08.27-22.54.50:146][278]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 90
-[2020.08.27-22.54.50:430][297]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 80
-[2020.08.27-22.54.52:930][470]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 70
-[2020.08.27-22.54.53:808][533]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 60
-[2020.08.27-22.54.54:160][557]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 50
-[2020.08.27-22.54.54:283][565]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
-[2020.08.27-22.54.55:905][677]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
-[2020.08.27-22.54.57:233][770]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
-[2020.08.27-22.54.57:805][810]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
-[2020.08.27-22.54.57:834][811]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
-[2020.08.27-22.54.58:982][890]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
-[2020.08.27-22.54.59:105][899]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
-[2020.08.27-22.54.59:521][928]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
-[2020.08.27-22.54.59:646][937]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
-[2020.08.27-22.54.59:673][939]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
-[2020.08.27-22.56.32:037][616]LogSlate: Took 0.002481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.08.27-22.56.32:060][616]LogMetaData: Removing '/Game/FireWarrior/HUD/Blueprints/FireWarriorHUD.FireWarriorHUD_C' ref from Metadata '/Game/FireWarrior/HUD/FireWarriorHUD.PackageMetaData'
-[2020.08.27-22.56.32:060][616]LogMetaData: Removing '/Game/FireWarrior/HUD/Blueprints/FireWarriorHUD.FireWarriorHUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/FireWarrior/HUD/FireWarriorHUD.PackageMetaData'
-[2020.08.27-22.56.32:060][616]LogMetaData: Removing '/Game/FireWarrior/HUD/Blueprints/FireWarriorHUD.FireWarriorHUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/FireWarrior/HUD/FireWarriorHUD.PackageMetaData'
-[2020.08.27-22.56.32:060][616]LogMetaData: Removing '/Game/FireWarrior/HUD/Blueprints/FireWarriorHUD.FireWarriorHUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/FireWarrior/HUD/FireWarriorHUD.PackageMetaData'
-[2020.08.27-22.56.32:060][616]LogMetaData: Removing '/Game/FireWarrior/HUD/Blueprints/FireWarriorHUD.SKEL_FireWarriorHUD_C:PreConstruct' ref from Metadata '/Game/FireWarrior/HUD/FireWarriorHUD.PackageMetaData'
-[2020.08.27-22.56.32:060][616]LogMetaData: Removing '/Game/FireWarrior/HUD/Blueprints/FireWarriorHUD.SKEL_FireWarriorHUD_C:Construct' ref from Metadata '/Game/FireWarrior/HUD/FireWarriorHUD.PackageMetaData'
-[2020.08.27-22.56.32:060][616]LogMetaData: Removing '/Game/FireWarrior/HUD/Blueprints/FireWarriorHUD.SKEL_FireWarriorHUD_C:Tick' ref from Metadata '/Game/FireWarrior/HUD/FireWarriorHUD.PackageMetaData'
-[2020.08.27-22.56.32:060][616]LogMetaData: Removing '/Game/FireWarrior/HUD/Blueprints/FireWarriorHUD.SKEL_FireWarriorHUD_C' ref from Metadata '/Game/FireWarrior/HUD/FireWarriorHUD.PackageMetaData'
-[2020.08.27-22.56.32:101][616]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/FireWarriorHUD38BF94374689085F45AF27AD817DE365.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Blueprints/FireWarriorHUD.uasset'
-[2020.08.27-22.56.32:306][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FireWarrior/HUD/FireWarriorHUD" FILE="C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/FireWarriorHUD.uasset" SILENT=true
-[2020.08.27-22.56.32:317][616]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/FireWarriorHUD30AF69CD43E437112A8F09B824F10350.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/FireWarriorHUD.uasset'
-[2020.08.27-22.56.32:718][616]AssetCheck: New page: Asset Save: multiple assets
-[2020.08.27-22.56.32:718][616]LogContentValidation: Display: Validating WidgetBlueprint /Game/FireWarrior/HUD/Blueprints/FireWarriorHUD.FireWarriorHUD
-[2020.08.27-22.56.32:719][616]LogContentValidation: Display: Validating ObjectRedirector /Game/FireWarrior/HUD/FireWarriorHUD.FireWarriorHUD
-[2020.08.27-22.56.32:719][616]LogContentValidation: Display: Validating ObjectRedirector /Game/FireWarrior/HUD/FireWarriorHUD.Default__FireWarriorHUD_C
-[2020.08.27-22.56.32:719][616]LogContentValidation: Display: Validating ObjectRedirector /Game/FireWarrior/HUD/FireWarriorHUD.FireWarriorHUD_C
-[2020.08.27-22.57.26:086][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 \\DESKTOP-LGUIEVU\Users\Public\Documents\Firewarrior\HUD_Crosshair_PulseRifle_Flair.png)
-[2020.08.27-22.57.26:105][159]LogTexture: Display: Building textures: HUD_Crosshair_PulseRifle_Flair (AutoDXT, 512X512)
-[2020.08.27-22.57.26:291][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 \\DESKTOP-LGUIEVU\Users\Public\Documents\Firewarrior\HUD_Helmet_Bottom.png)
-[2020.08.27-22.57.26:314][159]LogTexture: Display: Building textures: HUD_Helmet_Bottom (AutoDXT, 1024X1024)
-[2020.08.27-22.57.26:555][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 \\DESKTOP-LGUIEVU\Users\Public\Documents\Firewarrior\HUD_Helmet_Sides.png)
-[2020.08.27-22.57.26:606][159]LogTexture: Display: Building textures: HUD_Helmet_Sides (AutoDXT, 2048X2048)
-[2020.08.27-22.57.27:154][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 \\DESKTOP-LGUIEVU\Users\Public\Documents\Firewarrior\HUD_Helmet_Top.png)
-[2020.08.27-22.57.27:215][159]LogTexture: Display: Building textures: HUD_Helmet_Top (AutoDXT, 2048X2048)
-[2020.08.27-22.57.27:567][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 \\DESKTOP-LGUIEVU\Users\Public\Documents\Firewarrior\HUD_Compass_Base.png)
-[2020.08.27-22.57.27:583][159]LogTexture: Display: Building textures: HUD_Compass_Base (AutoDXT, 1024X1024)
-[2020.08.27-22.57.27:782][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 \\DESKTOP-LGUIEVU\Users\Public\Documents\Firewarrior\HUD_Crosshair_Base.png)
-[2020.08.27-22.57.27:791][159]LogTexture: Display: Building textures: HUD_Crosshair_Base (AutoDXT, 512X512)
-[2020.08.27-22.57.27:942][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 \\DESKTOP-LGUIEVU\Users\Public\Documents\Firewarrior\HUD_Crosshair_Carbine_Flair.png)
-[2020.08.27-22.57.27:958][159]LogTexture: Display: Building textures: HUD_Crosshair_Carbine_Flair (AutoDXT, 512X512)
-[2020.08.27-22.57.28:088][159]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 \\DESKTOP-LGUIEVU\Users\Public\Documents\Firewarrior\HUD_Crosshair_PulseRifle_Dot.png)
-[2020.08.27-22.57.28:096][159]LogTexture: Display: Building textures: HUD_Crosshair_PulseRifle_Dot (AutoDXT, 512X512)
-[2020.08.27-22.57.37:213][951]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FireWarrior/HUD/Textures/HUD_Compass_Base.HUD_Compass_Base
-[2020.08.27-22.57.37:228][951]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2020.08.27-22.57.39:753][206]LogSlate: Window 'HUD_Compass_Base' being destroyed
-[2020.08.27-22.57.39:767][206]LogSlate: Window 'HUD_Compass_Base' being destroyed
-[2020.08.27-22.57.40:863][323]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FireWarrior/HUD/Textures/HUD_Crosshair_Base.HUD_Crosshair_Base
-[2020.08.27-22.57.42:474][484]LogSlate: Window 'HUD_Crosshair_Base' being destroyed
-[2020.08.27-22.57.42:487][484]LogSlate: Window 'HUD_Crosshair_Base' being destroyed
-[2020.08.27-23.04.45:041][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
-[2020.08.27-23.04.45:044][ 91]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.016
-[2020.08.27-23.04.45:045][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Flair] ([1] browsable assets)...
-[2020.08.27-23.04.45:052][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Flair.HUD_Crosshair_PulseRifle_Flair]
-[2020.08.27-23.04.45:052][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Flair]
-[2020.08.27-23.04.45:056][ 91]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Crosshair_PulseRifle_Flair_A68D86B6A4A93EA6676BB0487E4B20EB3.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Autosaves/Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Flair_Auto1.uasset'
-[2020.08.27-23.04.45:058][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FireWarrior/HUD/Textures/HUD_Helmet_Bottom] ([1] browsable assets)...
-[2020.08.27-23.04.45:063][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FireWarrior/HUD/Textures/HUD_Helmet_Bottom.HUD_Helmet_Bottom]
-[2020.08.27-23.04.45:063][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/FireWarrior/HUD/Textures/HUD_Helmet_Bottom]
-[2020.08.27-23.04.45:068][ 91]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Helmet_Bottom_Auto1513C824D49AFBC0B2C99848E5825EDA0.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Autosaves/Game/FireWarrior/HUD/Textures/HUD_Helmet_Bottom_Auto1.uasset'
-[2020.08.27-23.04.45:070][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FireWarrior/HUD/Textures/HUD_Helmet_Sides] ([1] browsable assets)...
-[2020.08.27-23.04.45:075][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FireWarrior/HUD/Textures/HUD_Helmet_Sides.HUD_Helmet_Sides]
-[2020.08.27-23.04.45:075][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/FireWarrior/HUD/Textures/HUD_Helmet_Sides]
-[2020.08.27-23.04.45:084][ 91]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Helmet_Sides_Auto17795ED214F6F43D3D2820E9F2D1A668C.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Autosaves/Game/FireWarrior/HUD/Textures/HUD_Helmet_Sides_Auto1.uasset'
-[2020.08.27-23.04.45:087][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FireWarrior/HUD/Textures/HUD_Helmet_Top] ([1] browsable assets)...
-[2020.08.27-23.04.45:091][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FireWarrior/HUD/Textures/HUD_Helmet_Top.HUD_Helmet_Top]
-[2020.08.27-23.04.45:092][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/FireWarrior/HUD/Textures/HUD_Helmet_Top]
-[2020.08.27-23.04.45:101][ 91]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Helmet_Top_Auto144200CA749054D5C1734D3862F199B4B.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Autosaves/Game/FireWarrior/HUD/Textures/HUD_Helmet_Top_Auto1.uasset'
-[2020.08.27-23.04.45:104][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FireWarrior/HUD/Textures/HUD_Compass_Base] ([1] browsable assets)...
-[2020.08.27-23.04.45:109][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FireWarrior/HUD/Textures/HUD_Compass_Base.HUD_Compass_Base]
-[2020.08.27-23.04.45:109][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/FireWarrior/HUD/Textures/HUD_Compass_Base]
-[2020.08.27-23.04.45:114][ 91]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Compass_Base_Auto1C7EFDC2349B6848278EB8199CB449811.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Autosaves/Game/FireWarrior/HUD/Textures/HUD_Compass_Base_Auto1.uasset'
-[2020.08.27-23.04.45:116][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FireWarrior/HUD/Textures/HUD_Crosshair_Base] ([1] browsable assets)...
-[2020.08.27-23.04.45:121][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FireWarrior/HUD/Textures/HUD_Crosshair_Base.HUD_Crosshair_Base]
-[2020.08.27-23.04.45:121][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/FireWarrior/HUD/Textures/HUD_Crosshair_Base]
-[2020.08.27-23.04.45:125][ 91]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Crosshair_Base_Auto17CBE18C84958D589E43CA98D8680291A.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Autosaves/Game/FireWarrior/HUD/Textures/HUD_Crosshair_Base_Auto1.uasset'
-[2020.08.27-23.04.45:127][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FireWarrior/HUD/Textures/HUD_Crosshair_Carbine_Flair] ([1] browsable assets)...
-[2020.08.27-23.04.45:132][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FireWarrior/HUD/Textures/HUD_Crosshair_Carbine_Flair.HUD_Crosshair_Carbine_Flair]
-[2020.08.27-23.04.45:132][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/FireWarrior/HUD/Textures/HUD_Crosshair_Carbine_Flair]
-[2020.08.27-23.04.45:136][ 91]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Crosshair_Carbine_Flair_Auto96520F72451E31F98CC30080936DB0EB.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Autosaves/Game/FireWarrior/HUD/Textures/HUD_Crosshair_Carbine_Flair_Auto1.uasset'
-[2020.08.27-23.04.45:138][ 91]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Dot] ([1] browsable assets)...
-[2020.08.27-23.04.45:143][ 91]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Dot.HUD_Crosshair_PulseRifle_Dot]
-[2020.08.27-23.04.45:143][ 91]OBJ SavePackage: Finished generating thumbnails for package [/Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Dot]
-[2020.08.27-23.04.45:147][ 91]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Crosshair_PulseRifle_Dot_Aut34934ABF4C2CD8D4239C66849CA57363.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Autosaves/Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Dot_Auto1.uasset'
-[2020.08.27-23.04.45:149][ 91]LogFileHelpers: Auto-saving content packages took 0.104
-[2020.08.27-23.36.57:189][876]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{a5b1b413-1573-42ca-816f-1d90e5caa6c0}.
-[2020.08.27-23.36.57:189][876]LogTemp: Resetting audio stream to device id 
-[2020.08.27-23.36.57:210][876]LogAudioMixer: Display: 0: FrontLeft
-[2020.08.27-23.36.57:210][876]LogAudioMixer: Display: 1: FrontRight
-[2020.08.27-23.36.59:528][883]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{f52ca32d-4e46-4b45-b064-fa5028b26017}.
-[2020.08.27-23.36.59:528][883]LogTemp: Resetting audio stream to device id 
-[2020.08.27-23.36.59:547][883]LogAudioMixer: Display: 0: FrontLeft
-[2020.08.27-23.36.59:547][883]LogAudioMixer: Display: 1: FrontRight
-[2020.08.28-03.09.14:305][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
-[2020.08.28-03.09.17:167][892]LogSlate: Window 'Save Content' being destroyed
-[2020.08.28-03.09.17:327][892]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Compass_BaseB2A8DC50464A4100AD65B3AEA88C963B.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Textures/HUD_Compass_Base.uasset'
-[2020.08.28-03.09.17:523][892]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Crosshair_Base58C5C02543D87A7D9C35409E097C3CBD.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Textures/HUD_Crosshair_Base.uasset'
-[2020.08.28-03.09.17:743][892]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Crosshair_Carbine_FlairE1DAD4EF4A39CC3AAF9811B54E854A05.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Textures/HUD_Crosshair_Carbine_Flair.uasset'
-[2020.08.28-03.09.17:948][892]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Crosshair_PulseRifle_Dot0733EEEF4E2A73FC7AC8A3AFB3ABD01B.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Dot.uasset'
-[2020.08.28-03.09.18:153][892]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Crosshair_PulseRifle_Flair2BE49B6543474883EB57508E80E3B6D7.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Flair.uasset'
-[2020.08.28-03.09.18:387][892]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Helmet_BottomD74EFD31474BAFB97170A6ABD247DC5A.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Textures/HUD_Helmet_Bottom.uasset'
-[2020.08.28-03.09.18:661][892]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Helmet_Sides1326D5C64FB47338883C28B89F97D489.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Textures/HUD_Helmet_Sides.uasset'
-[2020.08.28-03.09.18:859][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FireWarrior/HUD/Textures/HUD_Helmet_Top" FILE="C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Textures/HUD_Helmet_Top.uasset" SILENT=true
-[2020.08.28-03.09.18:933][892]LogSavePackage: Moving 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/HUD_Helmet_TopCFBF29C341863580A49BCCB719B13DD2.tmp' to 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FireWarrior/HUD/Textures/HUD_Helmet_Top.uasset'
-[2020.08.28-03.09.19:186][892]LogSlate: Window 'FireWarrior - Unreal Editor' being destroyed
-[2020.08.28-03.09.19:188][892]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.08.28-03.09.19:346][892]AssetCheck: New page: Asset Save: multiple assets
-[2020.08.28-03.09.19:346][892]LogContentValidation: Display: Validating Texture2D /Game/FireWarrior/HUD/Textures/HUD_Compass_Base.HUD_Compass_Base
-[2020.08.28-03.09.19:346][892]LogContentValidation: Display: Validating Texture2D /Game/FireWarrior/HUD/Textures/HUD_Crosshair_Base.HUD_Crosshair_Base
-[2020.08.28-03.09.19:346][892]LogContentValidation: Display: Validating Texture2D /Game/FireWarrior/HUD/Textures/HUD_Crosshair_Carbine_Flair.HUD_Crosshair_Carbine_Flair
-[2020.08.28-03.09.19:346][892]LogContentValidation: Display: Validating Texture2D /Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Dot.HUD_Crosshair_PulseRifle_Dot
-[2020.08.28-03.09.19:346][892]LogContentValidation: Display: Validating Texture2D /Game/FireWarrior/HUD/Textures/HUD_Crosshair_PulseRifle_Flair.HUD_Crosshair_PulseRifle_Flair
-[2020.08.28-03.09.19:346][892]LogContentValidation: Display: Validating Texture2D /Game/FireWarrior/HUD/Textures/HUD_Helmet_Bottom.HUD_Helmet_Bottom
-[2020.08.28-03.09.19:347][892]LogContentValidation: Display: Validating Texture2D /Game/FireWarrior/HUD/Textures/HUD_Helmet_Sides.HUD_Helmet_Sides
-[2020.08.28-03.09.19:347][892]LogContentValidation: Display: Validating Texture2D /Game/FireWarrior/HUD/Textures/HUD_Helmet_Top.HUD_Helmet_Top
-[2020.08.28-03.09.19:364][893]Cmd: QUIT_EDITOR
-[2020.08.28-03.09.19:364][893]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
-[2020.08.28-03.09.19:378][893]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
-[2020.08.28-03.09.19:428][893]LogExit: Preparing to exit.
-[2020.08.28-03.09.19:810][893]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
-[2020.08.28-03.09.19:810][893]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2020.08.28-03.09.19:810][893]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2020.08.28-03.09.19:810][893]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
-[2020.08.28-03.09.19:810][893]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2020.08.28-03.09.19:826][893]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
-[2020.08.28-03.09.19:828][893]LogWorld: UWorld::CleanupWorld for None, bSessionEnded=true, bCleanupResources=true
-[2020.08.28-03.09.19:828][893]LogExit: Editor shut down
-[2020.08.28-03.09.19:832][893]LogExit: Transaction tracking system shut down
-[2020.08.28-03.09.19:990][893]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001B777073A40), frame # 1223893
-[2020.08.28-03.09.19:990][893]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B777067C40), frame # 1223893
-[2020.08.28-03.09.19:990][893]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B7770F4800), frame # 1223893
-[2020.08.28-03.09.19:995][893]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001B707F6C400), frame # 1223893
-[2020.08.28-03.09.19:995][893]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001B7081391C0), frame # 1223893
-[2020.08.28-03.09.20:017][893]LogExit: Object subsystem successfully closed.
-[2020.08.28-03.09.20:036][893]LogShaderCompilers: Display: Shaders left to compile 0
-[2020.08.28-03.09.20:060][893]LogModuleManager: Shutting down and abandoning module TextureEditor (776)
-[2020.08.28-03.09.20:060][893]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (774)
-[2020.08.28-03.09.20:060][893]LogModuleManager: Shutting down and abandoning module SceneOutliner (772)
-[2020.08.28-03.09.20:060][893]LogModuleManager: Shutting down and abandoning module AddContentDialog (770)
-[2020.08.28-03.09.20:061][893]LogModuleManager: Shutting down and abandoning module WidgetCarousel (769)
-[2020.08.28-03.09.20:061][893]LogModuleManager: Shutting down and abandoning module EditorWidgets (766)
-[2020.08.28-03.09.20:061][893]LogModuleManager: Shutting down and abandoning module CollectionManager (764)
-[2020.08.28-03.09.20:061][893]LogModuleManager: Shutting down and abandoning module StatsViewer (762)
-[2020.08.28-03.09.20:062][893]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (760)
-[2020.08.28-03.09.20:062][893]LogModuleManager: Shutting down and abandoning module FoliageEdit (758)
-[2020.08.28-03.09.20:062][893]LogModuleManager: Shutting down and abandoning module LandscapeEditor (756)
-[2020.08.28-03.09.20:063][893]LogModuleManager: Shutting down and abandoning module MeshPaintMode (754)
-[2020.08.28-03.09.20:063][893]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (752)
-[2020.08.28-03.09.20:063][893]LogModuleManager: Shutting down and abandoning module ActorPickerMode (750)
-[2020.08.28-03.09.20:063][893]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (748)
-[2020.08.28-03.09.20:063][893]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (746)
-[2020.08.28-03.09.20:063][893]LogModuleManager: Shutting down and abandoning module AutomationWorker (744)
-[2020.08.28-03.09.20:063][893]LogModuleManager: Shutting down and abandoning module GooglePADEditor (742)
-[2020.08.28-03.09.20:063][893]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (740)
-[2020.08.28-03.09.20:063][893]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (738)
-[2020.08.28-03.09.20:064][893]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (736)
-[2020.08.28-03.09.20:064][893]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (734)
-[2020.08.28-03.09.20:064][893]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (732)
-[2020.08.28-03.09.20:064][893]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (730)
-[2020.08.28-03.09.20:064][893]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (728)
-[2020.08.28-03.09.20:064][893]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (726)
-[2020.08.28-03.09.20:064][893]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (724)
-[2020.08.28-03.09.20:064][893]LogModuleManager: Shutting down and abandoning module WebMMedia (722)
-[2020.08.28-03.09.20:064][893]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (720)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (718)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module SequenceRecorder (717)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (714)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (712)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (710)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (708)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (706)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (704)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (702)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (700)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (698)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (696)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module PlanarCut (694)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module CharacterAI (692)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module TextureAlignMode (690)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module BspMode (688)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module PlacementMode (687)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module GeometryMode (684)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (682)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module SmartSnapping (680)
-[2020.08.28-03.09.20:065][893]LogModuleManager: Shutting down and abandoning module SessionServices (678)
-[2020.08.28-03.09.20:066][893]LogModuleManager: Shutting down and abandoning module MeshPaint (676)
-[2020.08.28-03.09.20:066][893]LogModuleManager: Shutting down and abandoning module ViewportSnapping (674)
-[2020.08.28-03.09.20:066][893]LogModuleManager: Shutting down and abandoning module ViewportInteraction (672)
-[2020.08.28-03.09.20:066][893]LogModuleManager: Shutting down and abandoning module ClothPainter (670)
-[2020.08.28-03.09.20:066][893]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (669)
-[2020.08.28-03.09.20:066][893]LogModuleManager: Shutting down and abandoning module LogVisualizer (666)
-[2020.08.28-03.09.20:067][893]LogModuleManager: Shutting down and abandoning module IntroTutorials (664)
-[2020.08.28-03.09.20:067][893]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (663)
-[2020.08.28-03.09.20:067][893]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (660)
-[2020.08.28-03.09.20:067][893]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (658)
-[2020.08.28-03.09.20:067][893]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (656)
-[2020.08.28-03.09.20:067][893]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (655)
-[2020.08.28-03.09.21:500][893]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (652)
-[2020.08.28-03.09.21:500][893]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (650)
-[2020.08.28-03.09.21:500][893]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (648)
-[2020.08.28-03.09.21:500][893]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (646)
-[2020.08.28-03.09.21:501][893]LogModuleManager: Shutting down and abandoning module TraceInsights (644)
-[2020.08.28-03.09.21:525][893]LogModuleManager: Shutting down and abandoning module TraceServices (643)
-[2020.08.28-03.09.21:525][893]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (640)
-[2020.08.28-03.09.21:525][893]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (638)
-[2020.08.28-03.09.21:525][893]LogModuleManager: Shutting down and abandoning module InputBindingEditor (636)
-[2020.08.28-03.09.21:525][893]LogModuleManager: Shutting down and abandoning module MergeActors (634)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (632)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module LocalizationService (631)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module HardwareTargeting (628)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (626)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module UndoHistory (624)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module XmlParser (622)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module Blutility (620)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (618)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (617)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (614)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module SettingsEditor (612)
-[2020.08.28-03.09.21:526][893]LogModuleManager: Shutting down and abandoning module ProjectLauncher (610)
-[2020.08.28-03.09.21:527][893]LogModuleManager: Shutting down and abandoning module SessionFrontend (608)
-[2020.08.28-03.09.21:527][893]LogModuleManager: Shutting down and abandoning module ProfilerClient (606)
-[2020.08.28-03.09.21:527][893]LogModuleManager: Shutting down and abandoning module DeviceManager (604)
-[2020.08.28-03.09.21:527][893]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (603)
-[2020.08.28-03.09.21:560][893]LogModuleManager: Shutting down and abandoning module AutomationController (600)
-[2020.08.28-03.09.21:560][893]LogModuleManager: Shutting down and abandoning module AutomationWindow (598)
-[2020.08.28-03.09.21:560][893]LogModuleManager: Shutting down and abandoning module Layers (596)
-[2020.08.28-03.09.21:561][893]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (594)
-[2020.08.28-03.09.21:561][893]LogModuleManager: Shutting down and abandoning module DetailCustomizations (592)
-[2020.08.28-03.09.21:561][893]LogModuleManager: Shutting down and abandoning module PackagesDialog (590)
-[2020.08.28-03.09.21:561][893]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (588)
-[2020.08.28-03.09.21:562][893]LogModuleManager: Shutting down and abandoning module Persona (586)
-[2020.08.28-03.09.21:562][893]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (585)
-[2020.08.28-03.09.21:562][893]LogModuleManager: Shutting down and abandoning module AnimGraph (583)
-[2020.08.28-03.09.21:562][893]LogModuleManager: Shutting down and abandoning module Kismet (580)
-[2020.08.28-03.09.21:563][893]LogModuleManager: Shutting down and abandoning module KismetWidgets (579)
-[2020.08.28-03.09.21:563][893]LogModuleManager: Shutting down and abandoning module GraphEditor (576)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module StructViewer (574)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module ClassViewer (572)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module Toolbox (570)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module ModuleUI (568)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module OutputLog (566)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module GammaUI (564)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module Documentation (562)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module LiveCoding (560)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module LevelSequence (558)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (556)
-[2020.08.28-03.09.21:565][893]LogModuleManager: Shutting down and abandoning module MovieScene (554)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (552)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module LauncherPlatform (550)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module AnalyticsET (548)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module PortalServices (546)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module PortalRpc (544)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module MessagingRpc (542)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (540)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module AudioMixerCore (539)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module AIModule (536)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module GameplayDebugger (535)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module AITestSuite (533)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module NavigationSystem (531)
-[2020.08.28-03.09.21:566][893]LogModuleManager: Shutting down and abandoning module ProfilerService (528)
-[2020.08.28-03.09.21:776][893]LogModuleManager: Shutting down and abandoning module TaskGraph (526)
-[2020.08.28-03.09.21:776][893]LogModuleManager: Shutting down and abandoning module ScreenshotTools (524)
-[2020.08.28-03.09.21:777][893]LogModuleManager: Shutting down and abandoning module SynthesisEditor (522)
-[2020.08.28-03.09.21:777][893]LogModuleManager: Shutting down and abandoning module Synthesis (520)
-[2020.08.28-03.09.21:778][893]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (518)
-[2020.08.28-03.09.21:778][893]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (516)
-[2020.08.28-03.09.21:778][893]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (514)
-[2020.08.28-03.09.21:778][893]LogModuleManager: Shutting down and abandoning module GooglePAD (512)
-[2020.08.28-03.09.21:778][893]LogModuleManager: Shutting down and abandoning module EditableMesh (510)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (508)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module CableComponent (506)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module AudioCapture (504)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (503)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module AssetTags (500)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (498)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (496)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module AppleImageUtils (494)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module AndroidPermission (492)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (490)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (488)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module TemplateSequence (486)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineEditor (484)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineRenderPasses (482)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineSettings (480)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module MovieRenderPipelineCore (478)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (477)
-[2020.08.28-03.09.21:779][893]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (474)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (472)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module MediaCompositing (470)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module ImgMedia (468)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (466)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (464)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (462)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (460)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (458)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (456)
-[2020.08.28-03.09.21:780][893]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (454)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module MeshConversion (452)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module DynamicMesh (450)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (448)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module GeometricObjects (446)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (444)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (443)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (440)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (438)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (436)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (434)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module ChaosNiagara (432)
-[2020.08.28-03.09.21:781][893]LogModuleManager: Shutting down and abandoning module FractureEditor (430)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (428)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module ChaosCloth (426)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module BackChannel (424)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (422)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module AutomationUtils (420)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module AlembicImporter (418)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module AlembicLibrary (417)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module GeometryCache (416)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (415)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (410)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (408)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (406)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module PluginBrowser (404)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (402)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (400)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (398)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module CurveEditorTools (396)
-[2020.08.28-03.09.21:782][893]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (394)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module CryptoKeys (392)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (390)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (388)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module UObjectPlugin (386)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (384)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (382)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (380)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (378)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module GitSourceControl (376)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module SourceControl (375)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (372)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (370)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (368)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (366)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (364)
-[2020.08.28-03.09.21:783][893]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (362)
-[2020.08.28-03.09.21:784][893]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (360)
-[2020.08.28-03.09.21:784][893]LogModuleManager: Shutting down and abandoning module Paper2DEditor (358)
-[2020.08.28-03.09.21:784][893]LogModuleManager: Shutting down and abandoning module SoundFields (356)
-[2020.08.28-03.09.21:784][893]LogModuleManager: Shutting down and abandoning module SignificanceManager (354)
-[2020.08.28-03.09.21:784][893]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (352)
-[2020.08.28-03.09.21:784][893]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (350)
-[2020.08.28-03.09.21:784][893]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (346)
-[2020.08.28-03.09.21:784][893]LogModuleManager: Shutting down and abandoning module ActorSequence (344)
-[2020.08.28-03.09.21:784][893]LogModuleManager: Shutting down and abandoning module UdpMessaging (342)
-[2020.08.28-03.09.21:885][893]LogModuleManager: Shutting down and abandoning module TcpMessaging (340)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (338)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (336)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (334)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (332)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (330)
-[2020.08.28-03.09.21:986][893]LogMagicLeapPlanes: Planes tracker already destroyed.
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (328)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (326)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (324)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (322)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapController (320)
-[2020.08.28-03.09.21:986][893]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (318)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module MagicLeapAR (316)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module AugmentedReality (315)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (312)
-[2020.08.28-03.09.21:986][893]LogModuleManager: Shutting down and abandoning module Niagara (310)
-[2020.08.28-03.09.21:987][893]LogModuleManager: Shutting down and abandoning module SignalProcessing (309)
-[2020.08.28-03.09.21:987][893]LogModuleManager: Shutting down and abandoning module NiagaraEditor (307)
-[2020.08.28-03.09.21:989][893]LogModuleManager: Shutting down and abandoning module NiagaraCore (304)
-[2020.08.28-03.09.21:989][893]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (302)
-[2020.08.28-03.09.21:989][893]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (300)
-[2020.08.28-03.09.21:989][893]LogModuleManager: Shutting down and abandoning module FacialAnimation (298)
-[2020.08.28-03.09.21:989][893]LogModuleManager: Shutting down and abandoning module DataValidation (296)
-[2020.08.28-03.09.21:989][893]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (294)
-[2020.08.28-03.09.21:990][893]LogModuleManager: Shutting down and abandoning module LevelEditor (293)
-[2020.08.28-03.09.21:990][893]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (292)
-[2020.08.28-03.09.21:991][893]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (290)
-[2020.08.28-03.09.21:991][893]LogModuleManager: Shutting down and abandoning module MainFrame (288)
-[2020.08.28-03.09.21:991][893]LogModuleManager: Shutting down and abandoning module HotReload (287)
-[2020.08.28-03.09.21:991][893]LogModuleManager: Shutting down and abandoning module ToolMenus (283)
-[2020.08.28-03.09.21:991][893]LogModuleManager: Shutting down and abandoning module TreeMap (281)
-[2020.08.28-03.09.21:991][893]LogModuleManager: Shutting down and abandoning module AnimationSharing (278)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (276)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module Paper2D (274)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (272)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (270)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (268)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module PacketHandler (266)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (264)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (262)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module MediaAssets (260)
-[2020.08.28-03.09.21:992][893]LogModuleManager: Shutting down and abandoning module Overlay (258)
-[2020.08.28-03.09.21:993][893]LogModuleManager: Shutting down and abandoning module OverlayEditor (257)
-[2020.08.28-03.09.21:993][893]LogModuleManager: Shutting down and abandoning module VREditor (254)
-[2020.08.28-03.09.21:993][893]LogModuleManager: Shutting down and abandoning module StringTableEditor (252)
-[2020.08.28-03.09.21:993][893]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (250)
-[2020.08.28-03.09.21:993][893]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (248)
-[2020.08.28-03.09.21:993][893]LogModuleManager: Shutting down and abandoning module FunctionalTesting (246)
-[2020.08.28-03.09.21:993][893]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (244)
-[2020.08.28-03.09.21:993][893]LogModuleManager: Shutting down and abandoning module UMG (242)
-[2020.08.28-03.09.21:993][893]LogModuleManager: Shutting down and abandoning module UMGEditor (241)
-[2020.08.28-03.09.21:994][893]LogModuleManager: Shutting down and abandoning module MessageLog (239)
-[2020.08.28-03.09.21:994][893]LogModuleManager: Shutting down and abandoning module MaterialEditor (237)
-[2020.08.28-03.09.21:994][893]LogModuleManager: Shutting down and abandoning module ContentBrowser (236)
-[2020.08.28-03.09.21:995][893]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (235)
-[2020.08.28-03.09.21:995][893]LogModuleManager: Shutting down and abandoning module SlateReflector (228)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module Slate (226)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module SlateCore (224)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (222)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module UnrealEd (220)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module MRMesh (218)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (216)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (214)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module XAudio2 (212)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module Networking (210)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module Core (208)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module MovieSceneTools (206)
-[2020.08.28-03.09.21:996][893]LogModuleManager: Shutting down and abandoning module CurveEditor (205)
-[2020.08.28-03.09.21:997][893]LogModuleManager: Shutting down and abandoning module Sequencer (203)
-[2020.08.28-03.09.21:997][893]LogModuleManager: Shutting down and abandoning module EditorStyle (202)
-[2020.08.28-03.09.21:998][893]LogModuleManager: Shutting down and abandoning module KismetCompiler (198)
-[2020.08.28-03.09.21:998][893]LogModuleManager: Shutting down and abandoning module MeshBuilder (196)
-[2020.08.28-03.09.21:998][893]LogModuleManager: Shutting down and abandoning module MeshUtilities (194)
-[2020.08.28-03.09.21:998][893]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (193)
-[2020.08.28-03.09.21:998][893]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (192)
-[2020.08.28-03.09.21:999][893]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (191)
-[2020.08.28-03.09.21:999][893]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (189)
-[2020.08.28-03.09.21:999][893]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (187)
-[2020.08.28-03.09.21:999][893]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (185)
-[2020.08.28-03.09.21:999][893]LogModuleManager: Shutting down and abandoning module MaterialBaking (181)
-[2020.08.28-03.09.21:999][893]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (176)
-[2020.08.28-03.09.21:999][893]LogModuleManager: Shutting down and abandoning module DerivedDataCache (174)
-[2020.08.28-03.09.21:999][893]LogModuleManager: Shutting down and abandoning module XGEController (172)
-[2020.08.28-03.09.21:999][893]LogXGEController: Cleaning working directory: C:/Users/Joe/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module TargetPlatform (170)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (169)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (167)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (165)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (163)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (161)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (159)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (157)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (155)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (153)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (151)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module ImageWrapper (150)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (147)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (145)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (143)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (141)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (139)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (137)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (135)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (133)
-[2020.08.28-03.09.22:000][893]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (131)
-[2020.08.28-03.09.22:002][893]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (129)
-[2020.08.28-03.09.22:003][893]LogModuleManager: Shutting down and abandoning module LinuxAArch64ServerTargetPlatform (127)
-[2020.08.28-03.09.22:003][893]LogModuleManager: Shutting down and abandoning module LinuxAArch64ClientTargetPlatform (125)
-[2020.08.28-03.09.22:003][893]LogModuleManager: Shutting down and abandoning module LinuxAArch64NoEditorTargetPlatform (123)
-[2020.08.28-03.09.22:003][893]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
-[2020.08.28-03.09.22:003][893]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2020.08.28-03.09.22:003][893]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
-[2020.08.28-03.09.22:003][893]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2020.08.28-03.09.22:003][893]LogModuleManager: Shutting down and abandoning module Messaging (113)
-[2020.08.28-03.09.22:003][893]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
-[2020.08.28-03.09.22:004][893]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2020.08.28-03.09.22:008][893]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (107)
-[2020.08.28-03.09.22:008][893]LogModuleManager: Shutting down and abandoning module InputCore (104)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module Settings (102)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (100)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module PhysXCooking (98)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module ChaosSolvers (96)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (95)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module Chaos (92)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (90)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (89)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module AVEncoder (88)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (84)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (82)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
-[2020.08.28-03.09.22:009][893]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (76)
-[2020.08.28-03.09.22:010][893]LogModuleManager: Shutting down and abandoning module XMPP (71)
-[2020.08.28-03.09.22:011][893]LogModuleManager: Shutting down and abandoning module WebSockets (70)
-[2020.08.28-03.09.22:038][893]LogModuleManager: Shutting down and abandoning module HTTP (67)
-[2020.08.28-03.09.22:038][893]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.08.28-03.09.22:038][893]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1A216DE1-4795-A9E1-459D-E8AFC4955BB7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.25.3-13942748%2B%2B%2BUE4%2BRelease-4.25&UserID=eae3432c4d0c43579442d7bc3f16f1cf%7C9d7066cdb99e417687694991894765bf%7Cc158ccea-1b3e-48e2-b901-ae4add998478&AppEnvironment=datacollector-source&UploadType=eteventstream] refs=[1] status=Processing
-[2020.08.28-03.09.22:056][893]LogModuleManager: Shutting down and abandoning module SSL (66)
-[2020.08.28-03.09.22:057][893]LogModuleManager: Shutting down and abandoning module WmfMedia (62)
-[2020.08.28-03.09.22:059][893]LogModuleManager: Shutting down and abandoning module Media (61)
-[2020.08.28-03.09.22:059][893]LogModuleManager: Shutting down and abandoning module MagicLeap (58)
-[2020.08.28-03.09.22:060][893]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (56)
-[2020.08.28-03.09.22:060][893]LogModuleManager: Shutting down and abandoning module NiagaraShader (54)
-[2020.08.28-03.09.22:060][893]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
-[2020.08.28-03.09.22:060][893]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
-[2020.08.28-03.09.22:061][893]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
-[2020.08.28-03.09.22:061][893]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
-[2020.08.28-03.09.22:061][893]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
-[2020.08.28-03.09.22:061][893]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
-[2020.08.28-03.09.22:061][893]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
-[2020.08.28-03.09.22:061][893]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2020.08.28-03.09.22:061][893]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2020.08.28-03.09.22:061][893]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2020.08.28-03.09.22:062][893]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2020.08.28-03.09.22:062][893]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2020.08.28-03.09.22:062][893]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2020.08.28-03.09.22:062][893]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2020.08.28-03.09.22:063][893]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2020.08.28-03.09.22:063][893]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
-[2020.08.28-03.09.22:064][893]LogD3D11RHI: Shutdown
-[2020.08.28-03.09.22:064][893]LogD3D11RHI: CleanupD3DDevice
-[2020.08.28-03.09.22:075][893]LogExit: Exiting.
-[2020.08.28-03.09.22:090][893]Log file closed, 08/27/20 23:09:22
+[2020.08.31-03.36.36:906][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.36.36:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.08.31-03.36.36:907][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.36.36:907][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.36.36:911][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:911][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.31-03.36.36:911][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.31-03.36.36:911][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:911][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.31-03.36.36:911][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:911][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.31-03.36.36:911][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.31-03.36.36:911][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.31-03.36.36:912][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.31-03.36.36:913][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.31-03.36.36:914][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.31-03.36.36:914][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.08.31-03.36.36:914][  0]LogHAL: Display: Platform has ~ 16 GB [17119961088 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.08.31-03.36.36:914][  0]LogInit: Going up to parent DeviceProfile []
+[2020.08.31-03.36.36:914][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.08.31-03.36.36:914][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.08.31-03.36.36:915][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.08.31-03.36.36:916][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Scalability.ini]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2020.08.31-03.36.36:917][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.08.31-03.36.36:918][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.08.31-03.36.36:918][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.08.31-03.36.36:918][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2020.08.31-03.36.36:918][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Config/Windows/Engine.ini]
+[2020.08.31-03.36.36:918][  0]LogInit: Computer: JOE-PC
+[2020.08.31-03.36.36:918][  0]LogInit: User: Joe
+[2020.08.31-03.36.36:918][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.08.31-03.36.36:918][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.08.31-03.36.36:918][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.08.31-03.36.36:918][  0]LogMemory: Platform Memory Stats for Windows
+[2020.08.31-03.36.36:918][  0]LogMemory: Process Physical Memory: 113.18 MB used, 113.18 MB peak
+[2020.08.31-03.36.36:918][  0]LogMemory: Process Virtual Memory: 95.96 MB used, 95.96 MB peak
+[2020.08.31-03.36.36:918][  0]LogMemory: Physical Memory: 5380.12 MB used,  10946.75 MB free, 16326.87 MB total
+[2020.08.31-03.36.36:918][  0]LogMemory: Virtual Memory: 5105.82 MB used,  134212624.00 MB free, 134217728.00 MB total
+[2020.08.31-03.36.36:927][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.08.31-03.36.36:966][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2020.08.31-03.36.36:967][  0]LogInit: Using OS detected language (en-US).
+[2020.08.31-03.36.36:967][  0]LogInit: Using OS detected locale (en-US).
+[2020.08.31-03.36.36:970][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.08.31-03.36.37:119][  0]LogInit: Setting process to per monitor DPI aware
+[2020.08.31-03.36.37:165][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.08.31-03.36.37:165][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.08.31-03.36.37:516][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.08.31-03.36.37:516][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.08.31-03.36.37:516][  0]LogD3D11RHI: D3D11 adapters:
+[2020.08.31-03.36.37:583][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 980 Ti' (Feature Level 11_0)
+[2020.08.31-03.36.37:583][  0]LogD3D11RHI:       6097/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.08.31-03.36.37:586][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.08.31-03.36.37:586][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.08.31-03.36.37:586][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.08.31-03.36.37:592][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.08.31-03.36.37:592][  0]LogD3D11RHI:     GPU DeviceId: 0x17c8 (for the marketing name, search the web for "GPU Device Id")
+[2020.08.31-03.36.37:592][  0]LogWindows: EnumDisplayDevices:
+[2020.08.31-03.36.37:592][  0]LogWindows:    0. 'NVIDIA GeForce GTX 980 Ti' (P:1 D:1)
+[2020.08.31-03.36.37:593][  0]LogWindows:    1. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2020.08.31-03.36.37:593][  0]LogWindows:    2. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2020.08.31-03.36.37:594][  0]LogWindows:    3. 'NVIDIA GeForce GTX 980 Ti' (P:0 D:0)
+[2020.08.31-03.36.37:594][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.08.31-03.36.37:594][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 980 Ti
+[2020.08.31-03.36.37:594][  0]LogD3D11RHI:   Driver Version: 441.66 (internal:26.21.14.4166, unified:441.66)
+[2020.08.31-03.36.37:594][  0]LogD3D11RHI:      Driver Date: 12-6-2019
+[2020.08.31-03.36.37:594][  0]LogRHI: Texture pool is 4268 MB (70% of 6097 MB)
+[2020.08.31-03.36.37:637][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.08.31-03.36.37:638][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2020.08.31-03.36.37:638][  0]LogD3D11RHI: Async texture creation enabled
+[2020.08.31-03.36.37:638][  0]LogD3D11RHI: Array index from any shader is supported
+[2020.08.31-03.36.37:670][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.08.31-03.36.38:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.08.31-03.36.38:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.08.31-03.36.38:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.08.31-03.36.38:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.08.31-03.36.38:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.08.31-03.36.38:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.08.31-03.36.38:046][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.08.31-03.36.38:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.08.31-03.36.38:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.08.31-03.36.38:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.08.31-03.36.38:047][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.08.31-03.36.38:070][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.08.31-03.36.38:070][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.08.31-03.36.38:081][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2020.08.31-03.36.38:090][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.08.31-03.36.38:099][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.08.31-03.36.38:108][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.08.31-03.36.38:118][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.08.31-03.36.38:127][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.08.31-03.36.38:136][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.08.31-03.36.38:163][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.08.31-03.36.38:163][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.08.31-03.36.38:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.08.31-03.36.38:179][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.08.31-03.36.38:188][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.08.31-03.36.38:197][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.08.31-03.36.38:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.08.31-03.36.38:216][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.08.31-03.36.38:216][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.08.31-03.36.38:225][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.08.31-03.36.38:286][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Intermediate/Shaders/WorkingDirectory/15016/).
+[2020.08.31-03.36.38:286][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Joe/AppData/Local/Temp/UnrealShaderWorkingDir/C279DB39468B07D6CA4367A1C86FB527/'.
+[2020.08.31-03.36.38:287][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.08.31-03.36.38:287][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.08.31-03.36.38:287][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.08.31-03.36.39:055][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.08.31-03.36.39:103][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/Joe/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.31-03.36.39:103][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Joe/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2020.08.31-03.36.39:103][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Joe/Documents/Unreal Projects/FireWarrior/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.08.31-03.36.39:104][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.08.31-03.36.39:104][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Joe/Documents/Unreal Projects/FireWarrior/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.31-03.36.39:104][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.08.31-03.36.39:116][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.08.31-03.36.39:116][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.08.31-03.36.39:116][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.08.31-03.36.39:118][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Joe/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.08.31-03.36.39:118][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.08.31-03.36.39:118][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.08.31-03.36.39:164][  0]LogSlate: Using FreeType 2.10.0
+[2020.08.31-03.36.39:165][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.08.31-03.36.39:197][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2020.08.31-03.36.39:435][  0]LogInit: Selected Device Profile: [Windows]
+[2020.08.31-03.36.39:546][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.08.31-03.36.39:546][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.08.31-03.36.39:546][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.08.31-03.36.39:546][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.08.31-03.36.39:546][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.08.31-03.36.39:562][  0]LogNetVersion: FireWarrior 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 2016184147)
+[2020.08.31-03.36.40:029][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000021AD0CA3700), frame # 0
+[2020.08.31-03.36.40:029][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021AD0BAFC40), frame # 0
+[2020.08.31-03.36.40:030][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AD0C38800), frame # 0
+[2020.08.31-03.36.40:066][  0]LogPackageLocalizationCache: Processed 17 localized package path(s) for 1 prioritized culture(s) in 0.030780 seconds
+[2020.08.31-03.36.40:070][  0]LogUObjectArray: 15756 objects as part of root set at end of initial load.
+[2020.08.31-03.36.40:070][  0]LogUObjectAllocator: 3925280 out of 0 bytes used by permanent object pool.
+[2020.08.31-03.36.40:070][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.08.31-03.36.40:405][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.08.31-03.36.40:409][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.08.31-03.36.40:452][  0]LogLinker: Warning: Failed to load '/Game/AI_Player/FirstPersonOverview': Can't find file.
+[2020.08.31-03.36.40:452][  0]LogLinker: Warning: Failed to load '/Game/AI_Player/FirstPersonOverview': Can't find file.
+[2020.08.31-03.36.40:452][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/AI_Player/FirstPersonOverview.FirstPersonOverview_C'
+[2020.08.31-03.36.40:485][  0]SourceControl: Source control is disabled
+[2020.08.31-03.36.41:322][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.08.31-03.36.41:341][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.31-03.36.41:341][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.08.31-03.36.41:423][  0]LogEngine: Initializing Engine...
+[2020.08.31-03.36.41:423][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2020.08.31-03.36.41:424][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.08.31-03.36.41:537][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.08.31-03.36.41:545][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.08.31-03.36.41:545][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AD6115200), frame # 0
+[2020.08.31-03.36.41:545][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021AD61265C0), frame # 0
+[2020.08.31-03.36.41:559][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.08.31-03.36.41:559][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.08.31-03.36.41:559][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.08.31-03.36.41:559][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.08.31-03.36.41:559][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.08.31-03.36.41:559][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.08.31-03.36.41:559][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.08.31-03.36.41:559][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.08.31-03.36.41:559][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.08.31-03.36.41:559][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.08.31-03.36.41:578][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.08.31-03.36.41:578][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.08.31-03.36.41:641][  0]LogAudioMixer: Display: Using Audio Device Speakers (High Definition Audio Device)
+[2020.08.31-03.36.41:642][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2020.08.31-03.36.41:645][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2020.08.31-03.36.41:645][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2020.08.31-03.36.41:646][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2020.08.31-03.36.41:647][  0]LogInit: FAudioDevice initialized.
+[2020.08.31-03.36.41:647][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.08.31-03.36.41:726][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/Joe/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2020.08.31-03.36.41:727][  0]LogInit: Texture streaming: Enabled
+[2020.08.31-03.36.41:747][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.08.31-03.36.41:747][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.08.31-03.36.41:763][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.08.31-03.36.41:795][  0]LogInit: Transaction tracking system initialized
+[2020.08.31-03.36.41:816][  0]BlueprintLog: New page: Editor Load
+[2020.08.31-03.36.41:886][  0]LocalizationService: Localization service is disabled
+[2020.08.31-03.36.42:041][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.08.31-03.36.42:041][  0]LogCook: Display: Mobile HDR setting 1
+[2020.08.31-03.36.42:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/' took 0.03s
+[2020.08.31-03.36.42:223][  0]LogUnrealEdMisc: Loading editor; pre map load, took 9.440
+[2020.08.31-03.36.42:223][  0]Cmd: MAP LOAD FILE="C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.08.31-03.36.42:223][  0]LightingResults: New page: Lighting Build
+[2020.08.31-03.36.42:224][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.08.31-03.36.42:224][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.08.31-03.36.42:224][  0]MapCheck: New page: Map Check
+[2020.08.31-03.36.42:224][  0]LightingResults: New page: Lighting Build
+[2020.08.31-03.36.42:234][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000021AD6115200), frame # 0
+[2020.08.31-03.36.42:234][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000021AD61265C0), frame # 0
+[2020.08.31-03.36.42:235][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2020.08.31-03.36.42:820][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.08.31-03.36.42:820][  0]LogAIModule: Creating AISystem for world FW_DevTestMap
+[2020.08.31-03.36.42:821][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000021AE042BA00), frame # 0
+[2020.08.31-03.36.42:821][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000021AE042F380), frame # 0
+[2020.08.31-03.36.42:833][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2020.08.31-03.36.42:834][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.08.31-03.36.42:834][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.216ms to complete.
+[2020.08.31-03.36.42:834][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.611
+[2020.08.31-03.36.42:836][  0]LogUnrealEdMisc: Total Editor Startup Time, took 10.053
+[2020.08.31-03.36.42:984][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-03.36.42:991][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-03.36.42:998][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-03.36.43:011][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.08.31-03.36.43:027][  0]LogCollectionManager: Loaded 0 collections in 0.002788 seconds
+[2020.08.31-03.36.43:042][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Saved/Collections/' took 0.00s
+[2020.08.31-03.36.43:042][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/Developers/Joe/Collections/' took 0.00s
+[2020.08.31-03.36.43:042][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior/Content/Collections/' took 0.00s
+[2020.08.31-03.36.43:042][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 3407 classes and 805 folders.
+[2020.08.31-03.36.43:045][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.31-03.36.43:225][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.31-03.36.43:226][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2020.08.31-03.36.43:394][  0]LogSlate: Took 0.000350 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.08.31-03.36.43:396][  0]LogSlate: Took 0.000302 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.08.31-03.36.43:401][  0]LogSlate: Took 0.000325 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.08.31-03.36.43:470][  0]LogRenderer: Reallocating scene render targets to support 1616x808 Format 10 NumSamples 1 (Frame:1).
+[2020.08.31-03.36.43:616][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.08.31-03.36.43:616][  0]LogLoad: (Engine Initialization) Total time: 10.83 seconds
+[2020.08.31-03.36.43:616][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.08.31-03.36.43:656][  0]LogAssetRegistry: Asset discovery search completed in 4.4613 seconds
+[2020.08.31-03.36.43:659][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2020.08.31-03.36.43:662][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.08.31-03.36.43:762][  1]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2020.08.31-03.36.43:848][  2]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2020.08.31-03.36.43:848][  2]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2020.08.31-03.36.43:848][  2]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2020.08.31-03.36.43:848][  2]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2020.08.31-03.36.43:854][  2]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2020.08.31-03.36.43:925][  3]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2020.08.31-03.36.43:968][  4]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2020.08.31-03.36.44:037][  5]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2020.08.31-03.36.44:085][  6]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
+[2020.08.31-03.36.46:678][195]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 110
+[2020.08.31-03.36.47:273][254]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 100
+[2020.08.31-03.36.47:293][256]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 90
+[2020.08.31-03.36.47:657][294]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 80
+[2020.08.31-03.36.49:886][532]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 70
+[2020.08.31-03.36.50:708][622]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 60
+[2020.08.31-03.36.51:286][681]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 50
+[2020.08.31-03.36.51:337][687]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 40
+[2020.08.31-03.36.52:864][847]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 30
+[2020.08.31-03.36.54:390][  5]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2020.08.31-03.36.54:902][ 59]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2020.08.31-03.36.55:138][ 84]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2020.08.31-03.36.56:035][179]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2020.08.31-03.36.56:439][220]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2020.08.31-03.36.56:651][242]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2020.08.31-03.36.56:802][257]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2020.08.31-03.36.56:973][272]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Content: 'F:/UE_4.25/Engine/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'F:/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'F:/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'F:/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'F:/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'F:/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'F:/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'F:/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'F:/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'F:/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'F:/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'F:/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'F:/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'F:/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'F:/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.38:611][148]SourceControl: fatal: F:/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'F:/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/Joe/Documents/Unreal Projects/FireWarrior'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_GreenKey.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_GreenKey', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/GearVRControllerMaterial', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusGoControllerMaterial.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusGoControllerMaterial', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/PokeAHoleMaterial', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/touchController_mat', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/TouchForQuestRiftSControllerMaterial.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Materials/TouchForQuestRiftSControllerMaterial', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/GearVrController', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchController', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchForQuestRiftSController.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/LeftTouchForQuestRiftSController', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/OculusGoController.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/OculusGoController', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftHMD', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftSensorHead.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftSensorHead', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftSensorStem.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RiftSensorStem', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchController', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchForQuestRiftSController.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Meshes/RightTouchForQuestRiftSController', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_AO', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Color', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/GearVRController_Normal', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/OculusGoController_albedo.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/OculusGoController_albedo', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_albedo', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:027][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/touchController_controlmap', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:028][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/TouchForQuestRiftSController_albedo.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/Textures/TouchForQuestRiftSController_albedo', but the path contains illegal characters '.'
+[2020.08.31-03.37.39:028][148]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset'. Attempt result was '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice', but the path contains illegal characters '.'
+[2020.08.31-03.38.06:632][148]LogSlate: Window 'Submit Files' being destroyed
+[2020.08.31-03.38.08:201][148]LogSourceControl: commit successful: [Joe-Branch 2f0228e] Updated the pulse rifle model and materials a bit
+[2020.08.31-03.38.08:604][148]SourceControl: [Joe-Branch 2f0228e] Updated the pulse rifle model and materials a bit
+[2020.08.31-03.38.08:604][148]SourceControl:  7 files changed, 0 insertions(+), 0 deletions(-)
+[2020.08.31-03.38.08:604][148]SourceControl:  rewrite Content/FireWarrior/Materials/Weapon_Master.uasset (95%)
+[2020.08.31-03.38.08:604][148]SourceControl:  rewrite Content/FireWarrior/Weapons/PulseRifle/Materials/Weapon_PulseRifle.uasset (97%)
+[2020.08.31-03.38.08:604][148]SourceControl:  rewrite Content/FireWarrior/Weapons/PulseRifle/Meshes/SK_FPPulseRifle.uasset (61%)
+[2020.08.31-03.38.08:604][148]SourceControl:  create mode 100644 Content/FireWarrior/Weapons/PulseRifle/Textures/PulseRifle_E.uasset
+[2020.08.31-03.38.08:604][148]SourceControl:  create mode 100644 Content/FireWarrior/Weapons/PulseRifle/Textures/PulseRifle_M.uasset
+[2020.08.31-03.38.08:604][148]SourceControl:  create mode 100644 Content/FireWarrior/Weapons/PulseRifle/Textures/PulseRifle_N.uasset
+[2020.08.31-03.38.08:611][148]SourceControl: Commited [Joe-Branch 2f0228e] Updated the pulse rifle model and materials a bit.
